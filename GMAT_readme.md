@@ -13,15 +13,15 @@ I programmed this function for a specific project but  you can use this code as 
 ### Creation of the mission (GMAT)
 * Create your mission with GMAT application ([GMAT docs](https://documentation.help/GMAT/UsingGmat.html)), initialise the spacecraft, the propagator, the burn.
 <p align="center">
-<img src="pictures\mission_ressources.jpg" alt="Description de l'image" width="150" height="330">
+<img src="readme_pictures\mission_ressources.jpg" alt="Description de l'image" width="150" height="330">
 </p>
 * Don't create Mission sequence because this is where you specify the maneuvers (burn, propagator and time of propagation), the GMAT API cannot modify this part, to modify those values we create the mission sequence in MATLAB.
 <p align="center">
-<img src="pictures\mission_sequence.jpg" alt="Description de l'image" width="231" height="185">
+<img src="readme_pictures\mission_sequence.jpg" alt="Description de l'image" width="231" height="185">
 </p>
 * Add a report file in the output of the simulation, this is how we will recover the data
 <p align="center">
-<img src="pictures\mission_output.jpg" alt="Description de l'image" width="150" height="330">
+<img src="readme_pictures\mission_output.jpg" alt="Description de l'image" width="150" height="330">
 </p>
 * GMAT will automatically create a GMAT script that we will load and modify with MATLAB.
 
