@@ -4,6 +4,8 @@ The goal of this function is to modify an existing GMAT script using the **GMAT 
 
 I programmed this function for a specific project but  you can use this code as inspiration and adapt it to your own project.
 
+**Complete tutorial in the example file on the study of the effect of atmospheric friction on ISS altitude.**
+
 ## Requirements
 
 * Download [GMAT](https://sourceforge.net/projects/gmat/)
