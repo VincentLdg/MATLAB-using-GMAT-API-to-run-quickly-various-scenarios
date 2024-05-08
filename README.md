@@ -21,7 +21,7 @@ I programmed this function for a specific project but  you can use this code as 
 </p>
 * Add a report file in the output of the simulation, this is how we will recover the data
 <p align="center">
-<img src="\picture\mission_output.jpg" alt="Description de l'image" width="150" height="330">
+<img src="\pictures\mission_output.jpg" alt="Description de l'image" width="150" height="330">
 </p>
 * GMAT will automatically create a GMAT script that we will load and modify with MATLAB.
 
