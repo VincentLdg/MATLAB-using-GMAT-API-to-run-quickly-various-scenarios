@@ -183,7 +183,7 @@ This is an example that modify the initial cartesian position of the satellite :
     Data= table2array(readtable(path_folder+'Report_file.txt')); 
 ```
 <p align="center">
-<img src="\pictures\graph.JPG" alt="Graph of the results" style="width:20%; height:auto">
+<img src="\pictures\graph.JPG" alt="Graph of the results" style="width:45%; height:auto">
 </p>
 
 
