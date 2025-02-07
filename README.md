@@ -1,4 +1,4 @@
-# MATLAB Function using GMAT API
+<h1 align="center">Using the GMAT API with MATLAB to quickly generate multiple scenarios </h1>
 
 The goal of this function is to modify an existing GMAT script using the **GMAT API**. This can be useful **to compare initial conditions, satellite's parameters, propagators, burns, ect...**
 
