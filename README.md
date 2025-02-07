@@ -1,19 +1,9 @@
 <h1 align="center">Using the GMAT API with MATLAB to quickly generate multiple scenarios </h1>
 
-The goal of this function is to modify an existing GMAT script using the **GMAT API**. This can be useful **to compare initial conditions, satellite's parameters, propagators, burns, ect...**
-
-I programmed this function for a specific project but  you can use this code as inspiration and adapt it to your own project.
-
-**Complete tutorial in the example file on the study of the effect of atmospheric friction on ISS altitude.**
-
-## Requirements
-
-* Download [GMAT](https://sourceforge.net/projects/gmat/)
-* Before running the function, be sure to be in folder **bin** located in GMAT folder (GMAT→bin). Because we need to use the function **"load_GMAT"** to call the GMAT application without interface.     
-
-# Using the GMAT API with MATLAB to quickly generate multiple scenarios 
-
 This project provides a streamlined method for using the GMAT (General Mission Analysis Tool) API with MATLAB. It enables users to easily generate mission scenarios and directly process the results within MATLAB. Due to the lack of extensive documentation for the GMAT API, this approach offers a workaround to efficiently interact with GMAT through MATLAB.
+
+I programmed this function for a specific project but I give you a **simple example that analyses the effect of the drag on a satellite.**
+
 
 ## Features
 - Automates the modification and execution of GMAT mission scripts via MATLAB.
