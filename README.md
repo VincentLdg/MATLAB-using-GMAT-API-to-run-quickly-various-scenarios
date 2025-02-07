@@ -62,7 +62,7 @@ Using the GMAT API with MATLAB, we can analyze how the drag surface area affects
 <img src="\pictures\mission.JPG" alt="Mission sequence in GMAT" style="width:20%; height:auto;">
 </p>
 <p align="center">
-<img src="\pictures\mission_script.png" alt="Mission sequence in GMAT script" style="width:20%; height:auto";>
+<img src="\pictures\mission_script.png" alt="Mission sequence in GMAT script" style="width:35%; height:auto";>
 </p>
 
 ### 2. MATLAB function implementation
