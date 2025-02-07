@@ -56,10 +56,10 @@ Using the GMAT API with MATLAB, we can analyze how the drag surface area affects
 ### 1. Creation of the mission script with GMAT
 - Create your mission with GMAT application ([GMAT docs](https://documentation.help/GMAT/UsingGmat.html)), initialise the spacecraft, the propagator and the report file .
 <p align="center">
-<img src="\pictures\mission_ressources.jpg" alt="Description de l'image" width="150" height="330"></p>
+<img src="\pictures\ressources.png" alt="Description de l'image" width="150" height="330"></p>
 - We can add a mission sequence, just a 10 days propagation. We run the mission to see if the data are well saved in the reportfile and to see how the mission sequence looked in the script because we must have the same format. 
 <p align="center">
-<img src="\pictures\mission_sequence.jpg" alt="Description de l'image" width="231" height="185">
+<img src="\pictures\mission.jpg" alt="Description de l'image" width="231" height="185">
 </p>
 <p align="center">
 <img src="\pictures\mission_sequence.jpg" alt="Description de l'image" width="231" height="185">
@@ -182,6 +182,8 @@ This is an example that modify the initial cartesian position of the satellite :
     GMATAPI.RunScript();
     Data= table2array(readtable(path_folder+'Report_file.txt')); 
 ```
-
+<p align="center">
+<img src="\pictures\graph.jpg" alt="Description de l'image" width="231" height="185">
+</p>
 
 
